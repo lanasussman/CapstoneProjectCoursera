@@ -1,11 +1,11 @@
 import React from "react";
-import logo from './logo.png';
+import logo from '../assets/logo.png';
 
-function Header() {
+function Navigation() {
     return (
-        <header className="header">
+        <menu className="navbar-menu">
             <img className="nav-image" src={logo} alt="Little Lemon logo" />
-            <nav className="navbar-menu">
+            <nav>
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About</a></li>
@@ -15,7 +15,7 @@ function Header() {
                     <li><a href="#">Login</a></li>
                 </ul>
             </nav>
-        </header>
+        </menu>
     );
 }
-export default Header;
+export default Navigation;

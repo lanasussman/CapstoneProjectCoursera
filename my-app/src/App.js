@@ -1,14 +1,14 @@
 import './App.css';
-import Header from './Header.js';
-import Main from './Main';
-import Footer from './Footer';
+import Header from './components/Header.js';
+import Footer from './components/Footer';
 import React from 'react';
+import MainRouting from './components/MainRouting';
 
 function App() {
   return (
     <>
-      <Header />
-      <Main />
+      <Header /> {/* Navbar */}
+      <MainRouting />
       <Footer />
     </>
   );
