@@ -1,16 +1,21 @@
-import HeroImage from "../assets/greekSalad.jpg";
+import React from 'react';
+import NavMobile from './NavMobile';
+import { NavLink } from 'react-router-dom';
+import Navigation from './Navigation';
+import Logo from "../components/assets/logo.png"
+import "./styles/Heading.css";
+
 
 export default function Heading() {
   return (
-    <header className="reserve-table">
-      <img
-        className="header-reserve"
-        src={HeroImage}
-        alt="Little Lemon Ingredients"
-      ></img>
-      <div className="reserve-header-text">
-        <h1>Reserve a table</h1>
+    <div className="header">
+      <div className="header-wrapper">
+        <div className="image-wrapper">
+          <NavLink to="/">{<img className="logo-img" src = { Logo } alt = "Little Lemon logo" />}</NavLink>
+        </div>
+        <Navigation />
+        <NavMobile />
       </div>
-    </header>
+    </div>
   );
 }

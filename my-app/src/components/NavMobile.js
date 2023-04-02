@@ -1,20 +1,19 @@
-import {Link} from 'react-router-dom';
-export default function Heading() {
-    return (
-        <header>
-            <article className="call-to-action">
-                <section className="hero-text">
-                    <h1>Little Lemon</h1>
-                    <h2>Chicago</h2>
-                    <p className="subsection">lorem ipsumDolore ullamco pariatur eu occaecat ullamco amet esse aliqua ipsum amet duis id aliqua. Eiusmod dolor esse proident nulla nostrud aliqua dolore quis anim proident officia aliquip labore pariatur. Laborum duis elit consequat excepteur laboris cillum aute reprehenderit consectetur ex tempor eiusmod. Quis eu do commodo aute veniam.</p>
-                    <br></br>
-                    <Link className="action-button" to="/reservations">Reserve a table</Link>
-                </section>
+import { useState } from 'react';
+import "./styles/NavMobile.css"
+import NavLinks from './NavLinks'
+import { GrMenu, GrClose } from "react-icons/gr";
 
-                <section className="hero-image">
-                    <img alt="photo"></img>
-                </section>
-            </article>
-      </header>
-    );
+export default function Heading() {
+    const [open, setOpen] = useState(false);
+    const closeMenu = <GrMenu className="hamburger" size="20px" onClick={() => setOpen(!open)} />
+    const openMenu = <GrClose className="hamburger close-menu" size="20px" onClick={() => setOpen(!open)} />
+
+    const closeMobileMenuOnClick = () => setOpen(false);
+
+    return (
+        <nav className="mobile-nav">
+            {open ? openMenu : closeMenu}
+            {open && <NavLinks isMobile={true} closeMobileMenu={closeMobileMenuOnClick} />}
+        </nav>
+    )
 }
