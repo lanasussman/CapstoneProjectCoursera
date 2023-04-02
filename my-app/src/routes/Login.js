@@ -1,9 +1,11 @@
-import Order from "./Order";
+import React from "react";
+import Header from "../components/Header";
 
 export default function Login() {
   return (
     <>
-      <Order />
+      <Header />
+      <h1 style={{textAlign: "center", paddingTop: "15%"}}>Login</h1>
     </>
   );
 }
