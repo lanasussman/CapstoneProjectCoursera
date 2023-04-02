@@ -2,7 +2,7 @@ import Carousel from './SpecialsCarousel';
 import GreekSalad from '../assets/greekSalad.jpg';
 import Bruschetta from '../assets/bruschetta.jpeg';
 import LemonDessert from '../assets/lemon-dessert.webp';
-import SpecialCard from './SpecialCard';
+import SpecialCard from './SpecialsCard';
 
 export default function Specials() {
     return (

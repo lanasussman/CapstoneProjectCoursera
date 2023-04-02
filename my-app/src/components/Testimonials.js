@@ -1,5 +1,5 @@
-import Carousel from './TestimonialCarousel'
-import TestimonialCard from './TestimonialCard';
+import TestimonialCard from './TestimonialsCard';
+
 export default function Testimonials() {
     return (
         <section className="testimonials">
@@ -19,8 +19,8 @@ export default function Testimonials() {
                 <TestimonialCard name="Name Name" description="Enim laboris ullamco qui duis do minim pariatur enim eiusmod. Et elit aliquip ipsum incididunt nostrud adipisicing nostrud officia. Magna ipsum voluptate veniam dolore."/>
             </section>
 
-            <section className="testimonials-carousel">
-                <Carousel />
+            <section>
+                missing code
             </section>
         </section>
     );
