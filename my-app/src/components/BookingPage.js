@@ -1,9 +1,9 @@
 import React from 'react';
 import "./styles/Booking.css";
-import Form from './BookingForm';
+import Form from './Form';
 
 
-export default function BookingPage() {
+function BookingPage() {
 
   return (
     <div className="res-content-wrapper">
@@ -22,3 +22,4 @@ export default function BookingPage() {
     </div>
   );
 }
+export default BookingPage

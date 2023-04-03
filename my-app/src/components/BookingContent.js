@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import "./styles/Booking.css";
 
-function ReservationsContent() {
+function BookingContent() {
 
     const [formData, setFormData] = useState({
         name: "",
@@ -153,4 +153,4 @@ function ReservationsContent() {
     )
 }
 
-export default ReservationsContent
+export default BookingContent;

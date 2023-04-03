@@ -1,9 +1,9 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import "./styles/NavMobile.css"
 import NavLinks from './NavLinks'
 import { GrMenu, GrClose } from "react-icons/gr";
 
-export default function Heading() {
+export default function NavMobile() {
     const [open, setOpen] = useState(false);
     const closeMenu = <GrMenu className="hamburger" size="20px" onClick={() => setOpen(!open)} />
     const openMenu = <GrClose className="hamburger close-menu" size="20px" onClick={() => setOpen(!open)} />
