@@ -10,12 +10,12 @@ function BookingPage() {
       <div className="res-content-container">
         <div className="text">
           <h2>Heading2</h2>
-          <p>Consequat quis deserunt culpa eiusmod enim incididunt laborum irure eiusmod nostrud.<em>tradition</em>.</p>
+          <p>Consequat quis deserunt culpa eiusmod enim incididunt laborum irure eiusmod nostrud</p>
           <p>Pariatur consequat voluptate velit aute dolor anim reprehenderit qui sint.</p>
         </div>
         <div className="form">
           <h1>Book a Table</h1>
-          <p>Please fill in and submit form to book your reservation at Little Lemon.</p>
+          <p>Enim sunt laborum officia laboris laboris pariatur.</p>
           <Form />
         </div>
       </div>
