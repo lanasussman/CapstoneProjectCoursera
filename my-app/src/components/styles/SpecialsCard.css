@@ -21,7 +21,7 @@
 }
 
 .price-tag {
-    color: #ee9972
+    color: #050504
 }
 
 .special-card-text p {
@@ -38,7 +38,7 @@
 
 .image-container {
     width: 100%;
-    height: 300px;
+    height: 100%;
     overflow: hidden;
     display: flex;
     align-items: center;

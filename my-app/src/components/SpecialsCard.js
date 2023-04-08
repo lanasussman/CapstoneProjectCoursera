@@ -13,14 +13,14 @@ export default function SpecialCard(props) {
             image: Dessert1,
             title: "Greek Salad",
             price: "$12.99",
-            description: "Consequat enim duis reprehenderit ad ea esse minim quis sint occaecat excepteur proident.",
+            description: "Consequat enim m quis sint occaecat excepteur proident.",
             order: "Order a delivery"
         },
         {
             image: Dessert2,
             title: "Bruschetta",
             price: "$5.99",
-            description: "Non ex consequat exercitation laboris consequat incididunt nostrud officia excepteur laborum commodo aliquip.",
+            description: "Non ex consequat icia excepteur laborum commodo aliquip.",
             order: "Order a delivery"
         },
         {

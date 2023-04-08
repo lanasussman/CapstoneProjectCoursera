@@ -1,6 +1,6 @@
 import React from "react";
 import "../components/styles/Footer.css";
-import Logo from "../components/assets/logo.png";
+import Logo from "../components/assets/footerLogo.png";
 
 function Footer() {
     return (
@@ -11,16 +11,15 @@ function Footer() {
                 <p>Ipsum occaecat consequat anim deserunt sit veniam dolor laborum duis irure labore veniam excepteur.</p>
                 <div className="footer-content">
                     <div className="locations">
-                        <h5>LOCATIONS</h5>
+                        <h5>locations</h5>
                         <ul>
-                            <li>Accra</li>
-                            <li>Kumasi</li>
-                            <li>Cape Coast</li>
-                            <li>Tamale</li>
+                            <li>Location</li>
+                            <li>Location</li>
+                            <li>Location</li>
                         </ul>
                     </div>
                     <div className="opening-times">
-                        <h5>OPENING TIMES</h5>
+                        <h5>hours</h5>
                         <ul>
                             <li>Mon - Wed: 10:30AM - 12:00AM</li>
                             <li>Fri: 12:00PM - 1:00AM</li>
@@ -28,11 +27,10 @@ function Footer() {
                         </ul>
                     </div>
                     <div className="contact">
-                        <h5>CONTACT US</h5>
+                        <h5>contact</h5>
                         <ul>
-                            <li>96 Abafom Road, North Ridge - Accra</li>
-                            <li>Tel: 020 7928 0678</li>
-                            <li>Email: info@littlelemon.com</li>
+                            <li>Pariatur consectetur proident sit do voluptate.</li>
+                            <li>Email: info@example.com</li>
                         </ul>
                     </div>
             </div>

@@ -1,15 +1,14 @@
-import { render, fireEvent, screen } from "@testing-library/react";
+import { render, screen } from "@testing-library/react";
 import React from 'react';
+import App from "./App";
+import { MemoryRouter } from 'react-router-dom';
 
-test("Adds one", () => {
-    // render the App component
-    render(<App />);
-    // save the heading in a variable
-    const heading = screen.getByTestId("currentNumber");
-    // save the button in a variable
-    const btn = screen.getByTestId("addOne");
-    // click the btn
-    fireEvent.click(btn);
-    // test assumption
-    expect(heading).toHaveTextContent("2");
-});
+test('renders a "Book a Table" button', () => {
+    render(
+        <MemoryRouter initialEntries={['/']}>
+          <App />
+        </MemoryRouter>
+      );
+    const bookButton = screen.getByText('Book a Table');
+    expect(bookButton).toBeInTheDocument();
+  });
