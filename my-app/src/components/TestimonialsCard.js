@@ -1,8 +1,11 @@
-import Star from '../assets/star.png';
-export default function TestimonialCard(props) {
+
+import React from 'react';
+import "../components/styles/TestimonialsCard.css"
+
+
+export default function TestimonialsCard(props) {
     return (
-        <article className="testimonial-card">
-            <img src={Star} alt="Star Icon"></img>
+        <article className="testimonials-card">
             <h3>{props.name}</h3>
             <p>{props.description}</p>
         </article>
