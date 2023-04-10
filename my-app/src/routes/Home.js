@@ -5,7 +5,7 @@ import Testimonials from "../components/Testimonials";
 import HeroSection from "../components/HeroSection";
 import Footer from "../components/Footer";
 
-export default function Homepage() {
+ const Home = () => {
   return (
     <>
       <Heading />
@@ -16,3 +16,4 @@ export default function Homepage() {
     </>
   );
 }
+export default Home

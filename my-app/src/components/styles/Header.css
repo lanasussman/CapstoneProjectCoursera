@@ -24,7 +24,9 @@ header {
     color: #495e57;
 }
 
-.hamburger,
+.hamburger {
+    display: none;
+}
 .close-hamburger {
     display: none;
 }
@@ -70,7 +72,11 @@ header {
         font-size: smaller;
     }
 
-    .hamburger,
+    .hamburger {
+        line-height: 0.8;
+        display: initial;
+        z-index: 11;
+    }
     .close-hamburger {
         line-height: 0.8;
         display: initial;

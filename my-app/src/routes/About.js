@@ -1,7 +1,9 @@
 import Header from "../components/Header";
+import React from 'react';
 
 
-export default function About() {
+
+const About = () => {
   return (
     <>
       <Header />
@@ -9,3 +11,4 @@ export default function About() {
     </>
   );
 }
+export default About

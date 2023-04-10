@@ -5,7 +5,7 @@ import React from "react";
 import logo from '../assets/logo.png';
 import "../components/styles/Header.css"
 
-function Header() {
+const Header = () => {
     const [click, setClick] = useState(false);
     const handleClick = () => setClick(!click);
 
@@ -29,6 +29,6 @@ function Header() {
                 </div>
             </header>
         </>
-    );
+    )
 }
 export default Header;

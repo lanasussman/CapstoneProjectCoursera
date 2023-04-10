@@ -5,8 +5,7 @@ import Navigation from './Navigation';
 import Logo from "../components/assets/logo.png"
 import "./styles/Heading.css";
 
-
-export default function Heading() {
+const Navbar = () => {
   return (
     <div className="header">
       <div className="header-wrapper">
@@ -19,3 +18,4 @@ export default function Heading() {
     </div>
   );
 }
+export default Navbar
