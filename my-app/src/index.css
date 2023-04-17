@@ -13,8 +13,8 @@ body {
 
 input {
   font-family: "karla", sans-serif;
-  font-size: 15px;
-  color: #333;
+  font-size: 16px;
+  color: black;
 }
 
 ::placeholder {
